@@ -1,0 +1,11 @@
+The Insertion Sort algorithm aims to select an element 'a' from an array and compare it with the element 'b' before it. If the element 'a' is smaller than 'b', we move 'b' to the position where 'a' is inside the array. This process continues by comparing 'a' with the preceding elements until we reach either the beginning of the array or an element that is smaller than 'a'. Other wise, if 'a' is greater than 'b', we do nothing. Here's an example:
+
+Array: {7, 4, 3, 10}
+
+1 - Since seven is the first element in the array and there's no element before it, we select the second element of the array, which is four;
+
+2 - Than we compare four with the element before it: Is 4 smaller than 7? Yes, it is;
+
+3 - Then we replace four with seven.
+
+4 - Since we reach the beginning of the array, there isn't any other alement to compared with, we take four and put it where seven was initially.
